@@ -1,35 +1,32 @@
-name: Lint Pull Requests
+name: Lint and Merge
 
 on:
-  pull_request:
-    paths:
-      - "**/*"
+  push:
+    branches:
+      - HelloWorld
 
 jobs:
-  lint:
+  lint-and-merge:
     runs-on: ubuntu-latest
-
     steps:
-       
-      - name: Check Out Repository
+      - name: Check out code
         uses: actions/checkout@v2
 
-      - name: Alerta Repositorio
-        run: echo "Verificou o repositorio com exito."
-
-      - name: Check for Checkout Failure
-        if: failure()
-        run: |
-          echo "Error: Verificação falhou relativamente ao check do repositorio"
-          exit 1
-
-      - name: Set up Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v2
         with:
           node-version: 14
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm install
 
-      - name: Run Linter
+      - name: Run Lint
         run: npm run lint
+
+      - name: Commit linted changes
+        run: |
+          git config user.email "gcalcada7@ua.pt"
+          git config user.name "gcalcadaMctw"
+          git add .
+          git commit -m "Linted changes"
+          git push origin HelloWorld
