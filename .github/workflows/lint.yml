@@ -30,4 +30,4 @@ jobs:
           git add .
           git commit -m "Linted Working #1"
           git fetch
-          git push origin HelloWorld
+          git push origin Main
