@@ -33,9 +33,14 @@ jobs:
         run: |
           git config user.email "gcalcada7@ua.pt"
           git config user.name "gcalcadaMctw"
-          git add .
-          git commit -m "Pushing changes"
-          git push
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Pushing changes"
+            git push
+          else
+            echo "No changes to commit."
+          fi
 
       #- name: Check for lint changes
       #  id: git-status
