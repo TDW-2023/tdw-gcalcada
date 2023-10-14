@@ -34,7 +34,7 @@ jobs:
           git config user.email "gcalcada7@ua.pt"
           git config user.name "gcalcadaMctw"
 
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git log origin/main..main --oneline)" ]; then
             git add .
             git commit -m "Pushing changes"
             git push
