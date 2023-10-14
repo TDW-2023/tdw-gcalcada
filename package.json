@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "test": "jest"
   },
   "dependencies": {
     "next": "13.5.4",
@@ -16,10 +17,17 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
+    "@jest/globals": "^29.7.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
+    "babel-jest": "^29.7.0",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",
     "husky": "^8.0.3",
@@ -28,7 +36,8 @@
     "postcss": "^8",
     "prettier": "3.0.3",
     "tailwindcss": "^3",
-    "typescript": "^5"
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
   },
   "engines": {
     "node": ">=14"
