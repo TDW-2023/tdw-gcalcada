@@ -28,7 +28,6 @@ jobs:
         run: echo ::set-output name=changed::$(git status --porcelain app/page.tsx)
 
       - name: Commit linted changes
-        if: steps.git-status.outputs.changed == "M app/page.tsx"
         run: |
           git config user.email "gcalcada7@ua.pt"
           git config user.name "gcalcadaMctw"

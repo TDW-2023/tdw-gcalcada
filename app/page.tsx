@@ -108,7 +108,9 @@ export default function Home() {
           </p>
         </a>
       </div>
-            <h1> hello world violento</h1> <p>Test automatico</p>
+            <h1> hello world </h1> <p>Test automatico</p>
+
+          <h5>vamos ser todos super amigos</h5>
     </main>
   )
 }
