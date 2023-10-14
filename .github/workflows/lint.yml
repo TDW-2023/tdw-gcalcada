@@ -1,4 +1,4 @@
-name: Lint and push
+name: CI Pipeline
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  lint-and-merge:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -22,6 +22,17 @@ jobs:
 
       - name: Run Lint
         run: npm run lint
+
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push to Repository
+        run: |
+          git config user.email "gcalcada7@ua.pt"
+          git config user.name "gcalcadaMctw"
+          git add .
+          git commit -m "Pushing changes"
+          git push
 
       #- name: Check for lint changes
       #  id: git-status
