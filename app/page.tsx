@@ -110,7 +110,7 @@ export default function Home() {
       </div>
             <h1> hello world </h1> <p>Test automatico</p>
 
-          <h2>Nao gosto league of legends</h2>
+          <h2>Nao gosto minecraft</h2>
     </main>
   )
 }
