@@ -3,7 +3,7 @@ name: Lint and push
 on:
   push:
     branches:
-      - Main
+      - main
 
 jobs:
   lint-and-merge:
@@ -23,11 +23,16 @@ jobs:
       - name: Run Lint
         run: npm run lint
 
+      - name: Check for lint changes
+        id: git-status
+        run: echo ::set-output name=changed::$(git status --porcelain app/page.tsx)
+
       - name: Commit linted changes
+        if: steps.git-status.outputs.changed == "M app/page.tsx"
         run: |
           git config user.email "gcalcada7@ua.pt"
           git config user.name "gcalcadaMctw"
           git add .
-          git commit -m "Linted Working #2"
+          git commit -m "Linted Working #3"
           git fetch
-          git push origin Main
+          git push origin main
