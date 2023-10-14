@@ -110,7 +110,7 @@ export default function Home() {
       </div>
             <h1> hello world </h1> <p>Test automatico</p>
 
-          <h2>bem vindos ao mundo fantastico de zelda </h2>
+          <h2>bem vindos ao assetto corsa </h2>
     </main>
   )
 }

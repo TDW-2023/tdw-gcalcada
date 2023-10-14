@@ -29,6 +29,8 @@ jobs:
 
       - name: Commit linted changes
         run: |
+          git config --global user.email "gcalcada7@ua.pt"
+          git config --global user.name "gcalcadaMCTW"    
           git add .
           git commit -m "Linted Working #7"
           git fetch
