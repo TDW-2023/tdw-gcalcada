@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
@@ -26,6 +26,9 @@ jobs:
   push:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
       - name: Push to Repository
         run: |
           git config user.email "gcalcada7@ua.pt"
