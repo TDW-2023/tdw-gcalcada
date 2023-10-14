@@ -23,15 +23,15 @@ jobs:
       - name: Run Lint
         run: npm run lint
 
-      - name: Check for lint changes
-        id: git-status
-        run: echo ::set-output name=changed::$(git status --porcelain app/page.tsx)
+      #- name: Check for lint changes
+      #  id: git-status
+      #  run: echo ::set-output name=changed::$(git status --porcelain app/page.tsx)
 
-      - name: Commit linted changes
-        run: |
-          git config --global user.email "gcalcada7@ua.pt"
-          git config --global user.name "gcalcadaMCTW"    
-          git add .
-          git commit -m "Linted Working #7"
-          git fetch
-          git push origin main
+      # - name: Commit linted changes
+      #   run: |
+      #    git config --global user.email "xxx"
+      #    git config --global user.name "xxxx"
+      #   git add .
+      #   git commit -m "Linted Working #7"
+      #   git fetch
+      #  git push origin main
