@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
   devFiles: [],
   ampDevFiles: [],
   lowPriorityFiles: [
-    'static/GKDEIwFgdrbLa8NXxhOGN/_buildManifest.js',
-    'static/GKDEIwFgdrbLa8NXxhOGN/_ssgManifest.js',
+    'static/tRTll8L2JKOUrhxJyfB2C/_buildManifest.js',
+    'static/tRTll8L2JKOUrhxJyfB2C/_ssgManifest.js',
   ],
   rootMainFiles: [
     'static/chunks/webpack-c9c642a365038404.js',

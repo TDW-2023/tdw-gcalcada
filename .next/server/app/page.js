@@ -133,7 +133,7 @@
         r.r(t), r.d(t, { default: () => Home })
         var a = r(8144)
         function Home() {
-          return a.jsx('h1', { children: 'Em COnstru\xe7ao' })
+          return a.jsx('h2', { children: 'Em sConstrucao' })
         }
         r(7272)
       },

@@ -176,7 +176,8 @@
       "trustHostHeader": false,
       "isExperimentalCompile": true
     },
-    "configFileName": "next.config.js"
+    "configFileName": "next.config.js",
+    "target": "server"
   },
   "appDir": "C:\\tdw-gcalcada",
   "relativeAppDir": "",

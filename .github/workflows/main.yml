@@ -9,10 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    env:
-      NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-
     steps:
       - name: Checkout código
         uses: actions/checkout@v4
@@ -51,6 +47,11 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16
+
+      - name: Set up environment variables GITHUB
+        run: |
+          echo "NETLIFY_SITE_ID=$NETLIFY_SI TE_ID" >> $GITHUB_ENV
+          echo "NETLIFY_AUTH_TOKEN=$NETLIFY_AUTH_TOKEN" >> $GITHUB_ENV
 
       - name: Deploy to Netlify
         run: npx netlify-cli deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod
