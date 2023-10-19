@@ -50,7 +50,7 @@ jobs:
 
       - name: GITHUB
         run: |
-          echo "NETLIFY_SITE_ID=thriving-marshmallow-091f54" >> $GITHUB_ENV
+          echo "NETLIFY_SITE_ID=014f3957-7959-48af-9271-c30a78cff179" >> $GITHUB_ENV
           echo "NETLIFY_AUTH_TOKEN=PfCbkGmbSzfgnuyhW4jbALt6zmRdHUr4rA4MgXd5E0I" >> $GITHUB_ENV
 
       - name: Deploy to Netlify
