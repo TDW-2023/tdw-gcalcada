@@ -5,8 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  target: 'server', // Correção: use 'server' em vez de 'serverless'
 }
-module.exports = {
-  target: 'serverless',
-}
+
 module.exports = nextConfig
