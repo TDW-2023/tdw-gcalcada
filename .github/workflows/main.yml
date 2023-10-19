@@ -31,5 +31,5 @@ jobs:
         run: npm test
 
       - name: Build
-        if: success()
+        if: ${{ success() }}
         run: npm run build
