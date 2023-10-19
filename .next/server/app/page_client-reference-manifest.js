@@ -19,7 +19,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -30,7 +30,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -41,7 +41,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -52,7 +52,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -63,7 +63,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -74,7 +74,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -85,7 +85,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -96,7 +96,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -107,7 +107,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -118,7 +118,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -129,7 +129,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },
@@ -140,7 +140,7 @@ globalThis.__RSC_MANIFEST['/page'] = {
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
           '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-25db4450ed51f640.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
         ],
         async: false,
       },

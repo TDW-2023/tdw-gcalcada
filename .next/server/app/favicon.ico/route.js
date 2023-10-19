@@ -10,7 +10,7 @@
       4021: (A) => {
         A.exports = import('next/dist/compiled/@vercel/og/index.node.js')
       },
-      8809: (A, w, D) => {
+      1343: (A, w, D) => {
         D.r(w),
           D.d(w, {
             headerHooks: () => r,
@@ -50,7 +50,7 @@
             },
             resolvedPagePath:
               'next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&isDynamic=0!C:\\tdw-gcalcada\\app\\favicon.ico?__next_metadata_route__',
-            nextConfigOutput: '',
+            nextConfigOutput: 'export',
             userland: P,
           }),
           {
@@ -66,6 +66,6 @@
   var w = require('../../webpack-runtime.js')
   w.C(A)
   var __webpack_exec__ = (A) => w((w.s = A)),
-    D = w.X(0, [976], () => __webpack_exec__(8809))
+    D = w.X(0, [976], () => __webpack_exec__(1343))
   module.exports = D
 })()

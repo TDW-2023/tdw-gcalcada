@@ -22,7 +22,7 @@
       5319: (e) => {
         e.exports = require('next/dist\\client\\components\\static-generation-async-storage.external.js')
       },
-      2993: (e, t, n) => {
+      6541: (e, t, n) => {
         n.r(t),
           n.d(t, {
             GlobalError: () => s.a,
@@ -95,6 +95,6 @@
   var t = require('../webpack-runtime.js')
   t.C(e)
   var __webpack_exec__ = (e) => t((t.s = e)),
-    n = t.X(0, [334, 60], () => __webpack_exec__(2993))
+    n = t.X(0, [334, 60], () => __webpack_exec__(6541))
   module.exports = n
 })()

@@ -238,7 +238,15 @@
       let S = { refresh: () => {} }
       function urlToUrlWithoutFlightMarker(e) {
         let t = new URL(e, location.origin)
-        return t.searchParams.delete(_.NEXT_RSC_UNION_QUERY), t
+        if (
+          (t.searchParams.delete(_.NEXT_RSC_UNION_QUERY),
+          t.pathname.endsWith('.txt'))
+        ) {
+          let { pathname: e } = t,
+            r = e.endsWith('/index.txt') ? 10 : 4
+          t.pathname = e.slice(0, -r)
+        }
+        return t
       }
       function isExternalURL(e) {
         return e.origin !== window.location.origin
@@ -1999,16 +2007,20 @@
         )
         try {
           let t = new URL(e)
-          t.searchParams.set(n.NEXT_RSC_UNION_QUERY, f)
+          t.pathname.endsWith('/')
+            ? (t.pathname += 'index.txt')
+            : (t.pathname += '.txt'),
+            t.searchParams.set(n.NEXT_RSC_UNION_QUERY, f)
           let r = await fetch(t, { credentials: 'same-origin', headers: d }),
             l = (0, a.urlToUrlWithoutFlightMarker)(r.url),
             u = r.redirected ? l : void 0,
-            c = r.headers.get('content-type') || ''
-          if (c !== n.RSC_CONTENT_TYPE_HEADER || !r.ok)
+            c = r.headers.get('content-type') || '',
+            p = c === n.RSC_CONTENT_TYPE_HEADER
+          if ((p || (p = c.startsWith('text/plain')), !p || !r.ok))
             return e.hash && (l.hash = e.hash), doMpaNavigation(l.toString())
-          let [p, h] = await i(Promise.resolve(r), { callServer: o.callServer })
-          if (s !== p) return doMpaNavigation(r.url)
-          return [h, u]
+          let [h, g] = await i(Promise.resolve(r), { callServer: o.callServer })
+          if (s !== h) return doMpaNavigation(r.url)
+          return [g, u]
         } catch (t) {
           return (
             console.error(
@@ -3612,7 +3624,11 @@
         normalizePathTrailingSlash = (e) => {
           if (!e.startsWith('/')) return e
           let { pathname: t, query: r, hash: o } = (0, a.parsePath)(e)
-          return '' + (0, n.removeTrailingSlash)(t) + r + o
+          return /\.[^/]+\/?$/.test(t)
+            ? '' + (0, n.removeTrailingSlash)(t) + r + o
+            : t.endsWith('/')
+            ? '' + t + r + o
+            : t + '/' + r + o
         }
       ;('function' == typeof t.default ||
         ('object' == typeof t.default && null !== t.default)) &&
