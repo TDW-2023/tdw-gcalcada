@@ -7,7 +7,6 @@ const nextConfig = {
   },
 }
 module.exports = {
-  target: 'serverless', // Este é importante para habilitar a exportação
-  // ...
+  target: 'serverless',
 }
 module.exports = nextConfig
