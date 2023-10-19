@@ -48,10 +48,10 @@ jobs:
         with:
           node-version: 16
 
-      - name: Set up environment variables GITHUB
+      - name: GITHUB
         run: |
-          echo "NETLIFY_SITE_ID=$NETLIFY_SITE_ID" >> $GITHUB_ENV
-          echo "NETLIFY_AUTH_TOKEN=$NETLIFY_AUTH_TOKEN" >> $GITHUB_ENV
+          echo "NETLIFY_SITE_ID=thriving-marshmallow-091f54" >> $GITHUB_ENV
+          echo "NETLIFY_AUTH_TOKEN=PfCbkGmbSzfgnuyhW4jbALt6zmRdHUr4rA4MgXd5E0I" >> $GITHUB_ENV
 
       - name: Deploy to Netlify
         run: npx netlify-cli deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod
