@@ -134,13 +134,17 @@
             userland: { loaderTree: c },
           })
       },
-      5303: () => {},
+      8056: (e, t, a) => {
+        Promise.resolve().then(a.t.bind(a, 5251, 23))
+      },
       461: (e, t, a) => {
         'use strict'
         a.r(t), a.d(t, { default: () => index })
         var s = a(8144),
           i = a(808),
-          n = a.n(i)
+          n = a.n(i),
+          r = a(5042),
+          o = a.n(r)
         function index() {
           return s.jsx('main', {
             className:
@@ -155,7 +159,7 @@
                     children: (0, s.jsxs)('div', {
                       className: 'max-w-sm rounded overflow-hidden shadow-lg',
                       children: [
-                        s.jsx('img', {
+                        s.jsx(o(), {
                           className: 'w-96 h-96',
                           src: e.image,
                           alt: e.name,
@@ -266,6 +270,6 @@
   var t = require('../../webpack-runtime.js')
   t.C(e)
   var __webpack_exec__ = (e) => t((t.s = e)),
-    a = t.X(0, [334, 770, 60], () => __webpack_exec__(1255))
+    a = t.X(0, [336, 770, 42, 60], () => __webpack_exec__(1255))
   module.exports = a
 })()

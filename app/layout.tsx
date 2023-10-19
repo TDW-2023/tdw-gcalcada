@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 
 import './globals.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function RootLayout({
   children,
@@ -23,11 +24,11 @@ export default function RootLayout({
                 <div className="flex flex-shrink-0 items-center">
                   <Link href={'/'}>
                     {' '}
-                    <img
+                    <Image
                       className="h-20 w-20"
                       src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png"
                       alt="Man City"
-                    ></img>
+                    />
                   </Link>
                 </div>
                 <div className="hidden sm:ml-20 p-7 sm:block">

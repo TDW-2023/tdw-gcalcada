@@ -148,8 +148,9 @@ globalThis.__RSC_MANIFEST['/page'] = {
       id: 3061,
       name: '*',
       chunks: [
-        '176:static/chunks/176-1852d1ea5dfad3d0.js',
-        '185:static/chunks/app/layout-4750b0d2780e6824.js',
+        '964:static/chunks/964-f2a465e67b7c4066.js',
+        '20:static/chunks/20-d7d66bfcfd40be49.js',
+        '185:static/chunks/app/layout-29fb82e96adadc73.js',
       ],
       async: false,
     },

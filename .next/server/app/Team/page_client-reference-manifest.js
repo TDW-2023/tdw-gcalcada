@@ -7,6 +7,7 @@ globalThis.__RSC_MANIFEST['/Team/page'] = {
     5146: { '*': { id: '2427', name: '*', chunks: [], async: false } },
     6054: { '*': { id: '9918', name: '*', chunks: [], async: false } },
     6384: { '*': { id: '8359', name: '*', chunks: [], async: false } },
+    6964: { '*': { id: '5251', name: '*', chunks: [], async: false } },
     8639: { '*': { id: '1860', name: '*', chunks: [], async: false } },
     8877: { '*': { id: '4047', name: '*', chunks: [], async: false } },
   },
@@ -148,8 +149,9 @@ globalThis.__RSC_MANIFEST['/Team/page'] = {
       id: 3061,
       name: '*',
       chunks: [
-        '176:static/chunks/176-1852d1ea5dfad3d0.js',
-        '185:static/chunks/app/layout-4750b0d2780e6824.js',
+        '964:static/chunks/964-f2a465e67b7c4066.js',
+        '20:static/chunks/20-d7d66bfcfd40be49.js',
+        '185:static/chunks/app/layout-29fb82e96adadc73.js',
       ],
       async: false,
     },
@@ -159,6 +161,25 @@ globalThis.__RSC_MANIFEST['/Team/page'] = {
       chunks: ['931:static/chunks/app/page-08436d4a91e51c1b.js'],
       async: false,
     },
+    'C:\\tdw-gcalcada\\node_modules\\next\\dist\\client\\image-component.js': {
+      id: 6964,
+      name: '*',
+      chunks: [
+        '964:static/chunks/964-f2a465e67b7c4066.js',
+        '429:static/chunks/app/Team/page-ada0c950f4f4e9da.js',
+      ],
+      async: false,
+    },
+    'C:\\tdw-gcalcada\\node_modules\\next\\dist\\esm\\client\\image-component.js':
+      {
+        id: 6964,
+        name: '*',
+        chunks: [
+          '964:static/chunks/964-f2a465e67b7c4066.js',
+          '429:static/chunks/app/Team/page-ada0c950f4f4e9da.js',
+        ],
+        async: false,
+      },
   },
   entryCSSFiles: {
     'C:\\tdw-gcalcada\\app\\_not-found': [],

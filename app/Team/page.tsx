@@ -1,5 +1,5 @@
 import players from '../Tests/data'
-
+import Image from 'next/image'
 export default function index() {
   return (
     <main className="flex min-h-screen flex-col items-baseline justify-between p-24">
@@ -7,7 +7,11 @@ export default function index() {
         {players.map((player, index) => (
           <div key={index} className="pl-20 pt-4 mt-10 justify-center">
             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-              <img className="w-96 h-96" src={player.image} alt={player.name} />
+              <Image
+                className="w-96 h-96"
+                src={player.image}
+                alt={player.name}
+              />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">{player.name}</div>
                 <p className="text-gray-700 text-base">{player.description}</p>

@@ -19,7 +19,9 @@
         a = s(9885)
       s(4047)
       var i = s(1440),
-        l = s.n(i)
+        l = s.n(i),
+        d = s(2451),
+        n = s.n(d)
       function RootLayout({ children: e }) {
         let [t, s] = (0, a.useState)(!1)
         return (0, r.jsxs)('html', {
@@ -46,7 +48,7 @@
                               href: '/',
                               children: [
                                 ' ',
-                                r.jsx('img', {
+                                r.jsx(n(), {
                                   className: 'h-20 w-20',
                                   src: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png',
                                   alt: 'Man City',
