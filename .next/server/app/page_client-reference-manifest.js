@@ -34,28 +34,6 @@ globalThis.__RSC_MANIFEST['/page'] = {
         ],
         async: false,
       },
-    'C:\\tdw-gcalcada\\node_modules\\next\\dist\\client\\components\\layout-router.js':
-      {
-        id: 1443,
-        name: '*',
-        chunks: [
-          '272:static/chunks/webpack-c9c642a365038404.js',
-          '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-17f01b686f576ed6.js',
-        ],
-        async: false,
-      },
-    'C:\\tdw-gcalcada\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js':
-      {
-        id: 1443,
-        name: '*',
-        chunks: [
-          '272:static/chunks/webpack-c9c642a365038404.js',
-          '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
-          '864:static/chunks/864-17f01b686f576ed6.js',
-        ],
-        async: false,
-      },
     'C:\\tdw-gcalcada\\node_modules\\next\\dist\\client\\components\\error-boundary.js':
       {
         id: 1729,
@@ -70,6 +48,28 @@ globalThis.__RSC_MANIFEST['/page'] = {
     'C:\\tdw-gcalcada\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js':
       {
         id: 1729,
+        name: '*',
+        chunks: [
+          '272:static/chunks/webpack-c9c642a365038404.js',
+          '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
+        ],
+        async: false,
+      },
+    'C:\\tdw-gcalcada\\node_modules\\next\\dist\\client\\components\\layout-router.js':
+      {
+        id: 1443,
+        name: '*',
+        chunks: [
+          '272:static/chunks/webpack-c9c642a365038404.js',
+          '971:static/chunks/fd9d1056-d9a18e37b76d597b.js',
+          '864:static/chunks/864-17f01b686f576ed6.js',
+        ],
+        async: false,
+      },
+    'C:\\tdw-gcalcada\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js':
+      {
+        id: 1443,
         name: '*',
         chunks: [
           '272:static/chunks/webpack-c9c642a365038404.js',
