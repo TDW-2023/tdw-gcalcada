@@ -126,6 +126,3 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Netlify
-.netlify/
-netlify.toml
