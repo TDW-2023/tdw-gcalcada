@@ -50,7 +50,7 @@ jobs:
 
       - name: Set up environment variables GITHUB
         run: |
-          echo "NETLIFY_SITE_ID=$NETLIFY_SI TE_ID" >> $GITHUB_ENV
+          echo "NETLIFY_SITE_ID=$NETLIFY_SITE_ID" >> $GITHUB_ENV
           echo "NETLIFY_AUTH_TOKEN=$NETLIFY_AUTH_TOKEN" >> $GITHUB_ENV
 
       - name: Deploy to Netlify
