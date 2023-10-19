@@ -19,19 +19,6 @@
       "srcRoute": "/favicon.ico",
       "dataRoute": null
     },
-    "/Team": {
-      "experimentalBypassFor": [
-        { "type": "header", "key": "Next-Action" },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/Team",
-      "dataRoute": "/Team.rsc"
-    },
     "/": {
       "experimentalBypassFor": [
         { "type": "header", "key": "Next-Action" },
@@ -44,13 +31,26 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/",
       "dataRoute": "/index.rsc"
+    },
+    "/Team": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/Team",
+      "dataRoute": "/Team.rsc"
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "cfb2ffe72c7cce3faeaea2a11867bb4f",
-    "previewModeSigningKey": "f51072dbdc310a0992d180f3081c81481da90a3bbac051963c1c512e6eb89eb4",
-    "previewModeEncryptionKey": "cdf678e09d440b673c985d3034a225597c982a930fb73bf3efe10cf5c794c80e"
+    "previewModeId": "ab639eb401e76c71c53e7a54d3e0a389",
+    "previewModeSigningKey": "ecfba02799c04b4a71afa0353bac4417dbd92521207055db347b7f7b23a40250",
+    "previewModeEncryptionKey": "d5b0c2a22b7b68e04fdf2e62d3cba611001651c11398f19d4ce9cc1f92845a2a"
   }
 }
