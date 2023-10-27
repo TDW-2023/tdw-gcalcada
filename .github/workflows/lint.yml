@@ -42,23 +42,4 @@ jobs:
             echo "No changes to commit."
           fi
 
-    # merge_job:
-    #  script:
-    #   - git checkout NewMerge # Substitua <branch_destino> pelo nome da branch de destino
-    #  - git merge --no-ff main # Substitua <branch_origem> pelo nome da branch de origem
-    #   - git push origin NewMerge # Atualiza a branch de destino no repositório remoto
-    #   only:
-    #    - app/page.tsx # Substitua <nome_da_pagina_que_deseja> pelo nome da página desejada
-
-    #- name: Check for lint changes
-    #  id: git-status
-    #  run: echo ::set-output name=changed::$(git status --porcelain app/page.tsx)
-
-    # - name: Commit linted changes
-    #   run: |
-    #    git config --global user.email "gcalcada7@ua.pt"
-    #    git config --global user.name "gcalcadaMctw"
-    #   git add .
-    #   git commit -m "Linted Working #7"
-    #   git fetch
-    #  git push origin main
+   
